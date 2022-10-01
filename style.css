@@ -236,6 +236,10 @@ h2 {
     cursor: pointer;
 }
 
+.toogle-img {
+    min-width: 30px;
+}
+
 /* GRID */
 
 .grid__wrapper {
@@ -373,7 +377,7 @@ footer {
     margin-right: 40px;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
     footer {
         flex-direction: column;
     }
@@ -381,5 +385,38 @@ footer {
     .footer__descr {
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    .nav__link {
+        padding: 20px 15px;
+    }
+
+    .navbar {
+        padding: 0px 20px;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media (max-width: 450px) {
+    .container {
+        margin: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .grid__img {
+        height: 200px;
+    }
+
+    .welcome-title {
+        font-size: 27px;
     }
 }
